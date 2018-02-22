@@ -1,5 +1,5 @@
 @import "~react-md/src/scss/react-md";
-$md-primary-color: $md-grey-900;
+$md-primary-color: #1b1b1e;
 $md-secondary-color: $md-red-900;
 $md-tertiary-color: $md-grey-200;
 $yellow: #faa916;
@@ -16,4 +16,12 @@ $yellow: #faa916;
 a:link {
   color: $md-secondary-color;
   text-decoration: none;
+}
+
+a {
+  color: $md-secondary-color;
+}
+
+a:hover {
+  color: $yellow
 }

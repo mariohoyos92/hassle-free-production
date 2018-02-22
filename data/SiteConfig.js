@@ -4,7 +4,7 @@ module.exports = {
   siteTitleAlt:
     "A blog for all your rap and hip hop production needs. The company blog for HassleFreeBeats.com", // Alternative site title for SEO.
   siteLogo: "/logos/header-logo-min.jpg", // Logo used for SEO and manifest.
-  siteUrl: "https://vagr9k.github.io", // Domain of your website without pathPrefix.
+  siteUrl: "https://hasslefreebeats.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription:
@@ -23,18 +23,33 @@ module.exports = {
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
-      label: "GitHub",
-      url: "https://github.com/Vagr9K/gatsby-material-starter",
-      iconClassName: "fa fa-github"
+      label: "Soundcloud",
+      url: "https://soundcloud.com/hasslefreebeats",
+      iconClassName: "fa fa-soundcloud"
+    },
+    {
+      label: "Instagram",
+      url: "https://www.instagram.com/hasslefreebeats/",
+      iconClassName: "fa fa-instagram"
+    },
+    {
+      label: "Tumblr",
+      url: "https://hasslefreebeats.tumblr.com/",
+      iconClassName: "fa fa-tumblr"
+    },
+    {
+      label: "Facebook",
+      url: "https://www.facebook.com/hasslefreebeats",
+      iconClassName: "fa fa-facebook"
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/Vagr9K",
+      url: "https://twitter.com/hasslefreebeats",
       iconClassName: "fa fa-twitter"
     },
     {
       label: "Email",
-      url: "mailto:vagr9k@gmail.com",
+      url: "support@hasslefreebeats.com",
       iconClassName: "fa fa-envelope"
     }
   ],

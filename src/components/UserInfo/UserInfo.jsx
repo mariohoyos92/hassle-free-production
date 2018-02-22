@@ -46,16 +46,11 @@ class UserInfo extends Component {
                 options={{ count: expanded ? "none" : "none" }}
               />
             ) : (
-              "Author"
-            )
+                "Author"
+              )
           }
         />
         <CardText expandable={!expanded}>
-          {userLocation && (
-            <IconSeparator label={userLocation} iconBefore>
-              <FontIcon iconClassName="fa fa-map-marker" />
-            </IconSeparator>
-          )}
           <p>{userDescription && userDescription}</p>
           {userLinksElement}
         </CardText>
