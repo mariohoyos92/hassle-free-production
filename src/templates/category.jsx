@@ -12,7 +12,7 @@ export default class CategoryTemplate extends React.Component {
         <Helmet>
           <title>{`Posts in category "${category}" | ${
             config.siteTitle
-          }`}</title>
+            }`}</title>
           <link
             rel="canonical"
             href={`${config.siteUrl}/categories/${category}`}
@@ -45,6 +45,7 @@ export const pageQuery = graphql`
             tags
             cover
             date
+            category
           }
         }
       }
