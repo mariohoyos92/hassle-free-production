@@ -1,6 +1,5 @@
 import React from "react";
 import PostPreview from "../PostPreview/PostPreview";
-import Categories from '../Categories/Categories'
 
 import './PostListing.scss'
 
@@ -26,9 +25,6 @@ class PostListing extends React.Component {
     const postList = this.getPostList();
     return (
       <div>
-        {
-          <Categories />
-        }
         <div className="md-grid md-grid--no-spacing md-cell--middle">
           <div className="md-grid md-cell--8 mobile-fix" style={{ float: "right" }}>
             {postList.postList.map(post => (

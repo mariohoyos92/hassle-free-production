@@ -12,7 +12,17 @@ function GetNavList(config) {
     },
     {
       divider: true
-    }
+    },
+    {
+      primaryText: "Categories",
+      subheader: true
+    },
+    {
+      primaryText: "Gatsby",
+      component: Link,
+      to: '/categories/gatsby/'
+    },
+    { divider: true }
   ];
 
   if (config.userLinks) {
