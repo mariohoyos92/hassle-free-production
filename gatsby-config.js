@@ -102,12 +102,12 @@ module.exports = {
         display: "minimal-ui",
         icons: [
           {
-            src: "/logos/logo-192.png",
+            src: "/logos/header-logo-min-192.jpg",
             sizes: "192x192",
             type: "image/png"
           },
           {
-            src: "/logos/logo-512.png",
+            src: "/logos/header-logo-min-512.jpg",
             sizes: "512x512",
             type: "image/png"
           }
@@ -121,7 +121,7 @@ module.exports = {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
           ret.allMarkdownRemark = ref.query.allMarkdownRemark;
-          ret.generator = "GatsbyJS Material Starter";
+          ret.generator = "HassleFreeBeats Blog";
           return ret;
         },
         query: `
