@@ -1,12 +1,11 @@
 ---
-title: "Example example xex"
-cover: "/logos/HassleFreeBeats (2).png"
-category: "gatsby"
+title: "Start Here"
+cover: "https://s3.us-east-2.amazonaws.com/hassle-free-beats-untagged-audio/HassleFreeBeats.png"
+category: "Start Here"
 tags:
 
-    - gatsby
-    - material
-    - starter
+    - rap/hip-hop
+    - production
 
 date: "18/07/2017"
 ---

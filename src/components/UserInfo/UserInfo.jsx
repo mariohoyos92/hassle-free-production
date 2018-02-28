@@ -12,7 +12,7 @@ import "./UserInfo.scss";
 class UserInfo extends Component {
   render() {
     const {
-      userAvatar,
+      siteLogo,
       userName,
       userLocation,
       userDescription,
@@ -23,7 +23,7 @@ class UserInfo extends Component {
     const userLinksElement = (
       <UserLinks config={this.props.config} labeled={expanded} />
     );
-    if (!userAvatar && !userName && !userLocation && !userDescription) {
+    if (!siteLogo && !userName && !userLocation && !userDescription) {
       if (userLinks) {
         return (
           <Card className="md-grid md-cell md-cell--12 user-info">
@@ -37,7 +37,7 @@ class UserInfo extends Component {
       <Card className="md-grid md-cell md-cell--12 user-info">
         <CardTitle
           expander={!expanded}
-          avatar={userAvatar && <Avatar src={userAvatar} role="presentation" />}
+          avatar={siteLogo && <Avatar src={siteLogo} role="presentation" />}
           title={userName && userName}
           subtitle={
             userTwitter ? (
