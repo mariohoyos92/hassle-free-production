@@ -17,7 +17,7 @@ class About extends Component {
               alt={config.userName}
             />
             <CardText>
-              <p className="about-text md-body-1">{config.userDescription}</p>
+              <p className="about-text md-body-1">This is the company blog for <a href="https://www.hasslefreebeats.com" >HassleFreeBeats</a>, the web's top destination for quality rap and hip hop beats. We have spent years refining our craft, and we want to share what we have learned in the process with you. Our team of producers and writers will post tips to help you make the next hit song, or simply to help you streamline your creative process. We work hard to try and identify topics that might prove useful to our readers, but we are always accepting suggestions at <a href="mailto:support@hasslefreebeats.com">support@hasslefreebeats.com.</a></p>
             </CardText>
             <UserLinks labeled config={config} />
           </div>

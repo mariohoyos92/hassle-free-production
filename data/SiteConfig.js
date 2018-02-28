@@ -1,5 +1,5 @@
 module.exports = {
-  blogPostDir: "sample-posts", // The name of directory that contains your posts.
+  blogPostDir: "posts", // The name of directory that contains your posts.
   siteTitle: "HassleFreeBeatsBlog", // Site title.
   siteTitleAlt:
     "A blog for all your rap and hip hop production needs. The company blog for HassleFreeBeats.com", // Alternative site title for SEO.
@@ -8,7 +8,7 @@ module.exports = {
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription:
-    "A blog for all your rap and hip hop production needs. The company blog for HassleFreeBeats.com, the place to buy beats with the freedom to profit.", // Website description used for RSS feeds/meta description tag.
+    "HassleFreeBeats is the place to buy rap and hip hop beats. This is our company blog where we share our knowledge about making and selling royalty-free beats.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "", // FB Application ID for using app insights
   siteGATrackingID: "", // Tracking code ID for google analytics.
@@ -19,7 +19,7 @@ module.exports = {
   userLocation: "WorldWide", // User location to display in the author segment.
   userAvatar: "/logos/HassleFreeBeats (2).png", // User avatar to display in the author segment.
   userDescription:
-    "A blog for all your rap and hip hop production needs. The company blog for HassleFreeBeats.com, the place to buy beats with the freedom to profit.", // User description to display in the author segment.
+    "The company blog for HassleFreeBeats.com, the place to buy rap and hip hop beats with the freedom to profit.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {

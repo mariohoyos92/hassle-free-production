@@ -18,9 +18,9 @@ function GetNavList(config) {
       subheader: true
     },
     {
-      primaryText: "Gatsby",
+      primaryText: "Start Here",
       component: Link,
-      to: '/categories/gatsby/'
+      to: '/welcome'
     },
     { divider: true }
   ];
@@ -43,6 +43,11 @@ function GetNavList(config) {
     leftIcon: <FontIcon>person</FontIcon>,
     component: Link,
     to: "/about/"
+  });
+  NavList.push({
+    primaryText: "HassleFreeBeats",
+    component: "a",
+    href: "https://www.hasslefreebeats.com"
   });
   return NavList;
 }
