@@ -1,6 +1,6 @@
 ---
-title: "Introducing Gatsby Material Starter"
-cover: "/logos/logo-1024.png"
+title: "Example example xex"
+cover: "/logos/HassleFreeBeats (2).png"
 category: "gatsby"
 tags:
 

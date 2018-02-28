@@ -28,6 +28,7 @@ class Disqus extends Component {
     this.setState({ toasts });
   }
   render() {
+
     const { postNode, expanded } = this.props;
     if (!config.disqusShortname) {
       return null;

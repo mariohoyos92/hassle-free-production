@@ -1,10 +1,10 @@
 module.exports = {
   blogPostDir: "sample-posts", // The name of directory that contains your posts.
-  siteTitle: "HassleFreeProduction", // Site title.
+  siteTitle: "HassleFreeBeatsBlog", // Site title.
   siteTitleAlt:
     "A blog for all your rap and hip hop production needs. The company blog for HassleFreeBeats.com", // Alternative site title for SEO.
   siteLogo: "/logos/header-logo-min.jpg", // Logo used for SEO and manifest.
-  siteUrl: "https://hasslefreebeats.com", // Domain of your website without pathPrefix.
+  siteUrl: "https://hasslefreebeatsblog.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription:
@@ -12,7 +12,7 @@ module.exports = {
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "", // FB Application ID for using app insights
   siteGATrackingID: "", // Tracking code ID for google analytics.
-  disqusShortname: "https-vagr9k-github-io-gatsby-material-starter", // Disqus shortname.
+  disqusShortname: "hasslefreebeatsblog", // Disqus shortname.
   postDefaultCategoryID: "Rap/Hip Hop", // Default category for posts.
   userName: "HassleFreeBeats", // Username to display in the author segment.
   userTwitter: "hasslefreebeats", // Optionally renders "Follow Me" in the UserInfo segment.
